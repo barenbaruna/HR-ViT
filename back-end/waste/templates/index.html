@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>API Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2em;
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 0.5em;
+        }
+        li a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the AMH Project 0.2 API</h1>
+    <p>This API provides image classification functionalities and system health checks.</p>
+    <h2>Available Endpoints</h2>
+    <ul>
+        <li><a href="/health" target="_blank">/health</a> - Check if the service is running</li>
+        <li><a href="/status" target="_blank">/status</a> - Check if the model is loaded successfully</li>
+        <li><a href="/class_names" target="_blank">/class_names</a> - List available classes for prediction</li>
+        <li><a href="/logs" target="_blank">/logs</a> - Retrieve recent system logs</li>
+    </ul>
+    <h2>Usage</h2>
+    <p>To predict an image class, send a POST request to <code>/predict</code> with JSON body containing <code>image_path</code>.</p>
+    <pre>
+{
+  "image_path": "path/to/your/image.jpg"
+}
+    </pre>
+    <p>To upload and predict multiple images, use the <code>/upload</code> endpoint as a POST request with form-data containing files.</p>
+</body>
+</html>
