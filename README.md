@@ -8,7 +8,7 @@
 
 This repository contains the official implementation associated with our research paper "A Hybrid Vision Transformer Model for Efficient Waste Classification" published in Jurnal Ilmu Komputer dan Informasi. Our model combines Vision Transformers with a ResNet-50 backbone to classify waste materials into six categories: battery, glass, metal, organic, paper, and plastic.
 
-[![Paper](https://img.shields.io/badge/Paper-Published-green)](https://doi.org/xxxx.xxxx)
+[![Paper](https://img.shields.io/badge/Paper-Published-green)](https://doi.org/10.21609/jiki.v18i2.1545)
 [![Dataset](https://img.shields.io/badge/Dataset-Waste%20Classification-blue)](./dataset/modified_dataset.rar)
 
 ## Repository Structure
