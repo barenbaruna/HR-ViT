@@ -1,0 +1,19 @@
+TY  - JOUR
+AU  - Amir Mahmud Husein, 
+AU  - Baren Baruna Harahap, 
+AU  - Tio Fulalo Simatupang, 
+AU  - Karunia Syukur Baeha, 
+AU  - Bintang Keitaro Sinambela, 
+PY  - 2025/06/26
+Y2  - 2025/06/27
+TI  - A Hybrid Vision Transformer Model for Efficient Waste Classification
+JF  - Jurnal Ilmu Komputer dan Informasi
+JA  - Jurnal Ilmu Komputer dan Informasi
+VL  - 18
+IS  - 2
+SE  - Articles
+DO  - 10.21609/jiki.v18i2.1545
+UR  - https://jiki.cs.ui.ac.id/index.php/jiki/article/view/1545
+SP  - 261-275
+AB  - &lt;p&gt;The rapid and accurate sorting of municipal waste is essential for efficient recycling and sustainable resource recovery. Most existing AI solutions focus only on four common materials (plastic, paper, metal, and glass), overlooking many other routinely encountered waste types and losing accuracy when applied to the mixed waste compositions seen in operational environments. We introduce HR-ViT, a hybrid network that combines ResNet50 residual blocks, which capture fine-grained local cues, with Vision Transformer global self-attention. Trained on a balanced six-class benchmark of about 775 images per class (plastic, paper, organic, metal, glass, batteries), HR-ViT attains 98.27 % accuracy and a macro-averaged F1-score of 0.98, outperforming a pure ViT, VT-MLH-CNN, and Garbage FusionNet by up to five percentage points in both metrics. Gains arise from selective fine-tuning of the last ten ResNet layers, lightweight ViT hyper-parameter optimisation, and targeted data augmentation that mitigates cluttered backgrounds, uneven lighting, and object deformation. These results show that hybrid attention-residual architectures provide reliable predictions under complex imaging conditions. Future work will extend the method to multi-object scenes and domain-adaptive deployment in smart-city recycling systems.&lt;/p&gt;
+ER  -

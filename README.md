@@ -138,16 +138,17 @@ This architecture ensures efficient processing, scalability, and a responsive us
 If you use this code or the findings in your research, please cite our paper:
 
 ```bibtex
-@article{
-  title   = {A Hybrid Vision Transformer Model for Efficient Waste Classification},
-  author  = {Amir Mahmud Husein, Baren Baruna Harahap, Tio Fulalo Simatupang, Karunia Syukur Baeha, & Bintang Keitaro Sinambela},
-  journal = {Jurnal Ilmu Komputer Dan Informasi},
-  volume  = {18},
-  number  = {2},
-  pages   = {261--275},
-  year    = {2025},
-  doi     = {10.21609/jiki.v18i2.1545},
-  url     = {https://doi.org/10.21609/jiki.v18i2.1545}
+@article{HR-ViT,
+  title={A Hybrid Vision Transformer Model for Efficient Waste Classification},
+  volume={18},
+  url={https://jiki.cs.ui.ac.id/index.php/jiki/article/view/1545},
+  DOI={10.21609/jiki.v18i2.1545},
+  number={2},
+  journal={Jurnal Ilmu Komputer dan Informasi},
+  author={Amir Mahmud Husein and Baren Baruna Harahap and Tio Fulalo Simatupang and Karunia Syukur Baeha and Bintang Keitaro Sinambela},
+  year={2025},
+  month={Jun.},
+  pages={261–275}
 }
 ```
 
