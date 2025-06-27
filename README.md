@@ -138,7 +138,7 @@ This architecture ensures efficient processing, scalability, and a responsive us
 If you use this code or the findings in your research, please cite our paper:
 
 ```bibtex
-@article{husein2025hybrid,
+@article{
   title = {A Hybrid Vision Transformer Model for Efficient Waste Classification},
   author = {Amir Mahmud Husein, Baren Baruna Harahap, Tio Fulalo Simatupang, Karunia Syukur Baeha, & Bintang Keitaro Sinambela},
   journal = {Jurnal Ilmu Komputer Dan Informasi},
